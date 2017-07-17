@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Apprentice Project</title>
+    <link href="MainStyle.css" rel="stylesheet" type="text/css"/>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js" ></script>
+    <script src="MainScript.js" ></script>
+    
+</head>
+<body>
+    <!-- Does this count as a change in git hub -->
+    <div id="navbar">
+        <ul>
+            <il><a href="HomePage.html" id="navbarLink">Home</a></il>
+            <il><a href="CodeSamples.html" id="navbarLink">Code Samples</a></il>
+            <il><a href="AboutMe.html" id="navbarLink">About Me</a></il>
+        </ul>
+    </div>
+    <div id="sidebar">
+        <select name="backgroundSelect" id="backgroundSelect" onchange="changeBackground()">
+            <option value="Mountain">Moutain View</option>
+            <option value="Lake">Lake view</option>
+        </select>
+        <p>This is just a basic layout, if you feel like it needs something or that I could add something just let me know.
+        Right now I am not sure what I want to put on this sidebar, but I like the placement of it and I am going to keep it.
+        </p>
+    </div>
+    <div class="mainbar" id="timpInfo">
+        <h1 id="DescriptionHeader">Facts About Mount Timpanogos:</h1>
+        <ul id="timp">
+            <li>The summit of Mount Timpanogos is 11,753 ft above sea level.</li>
+            <li>There are two main trails to get to its summit:
+                <ul>
+                    <li>Aspen Grove at 6.82 miles long one way</li>
+                    <li>Timpooneke trail at 7.02 miles long one way</li>
+                </ul>
+            </li>
+            <li>I have personlly seen two herds of mountain goat up near the summit.</li>
+        </ul>
+        <img src="Pics/Mount-Timpanogos2.jpg" id="DescPic">
+    </div>
+    <div class="mainbar" id="PowellInfo"  >
+        <h1 id="DescriptionHeader">Facts About Lake Powell:</h1>
+        <ul id="powell">
+            <li>Lake Powell has over 2,000 feet of shoreline.</li>
+            <li>Lake Powell was formed when the Glen Canyon Dam was completed in on the Colorado River in 1963.
+                <ul>
+                    <li>The dam runs a length of 1,560 feet and is 587 feet high. The width at the dam's base is 300 feet.</li>
+                    <li>It is the fourth highest dam in America.</li>
+                </ul>
+            </li>
+            <li>It is a popular tourist site and has amazing waters for almost all water sports.</li>
+        </ul>
+        <img src="Pics/LakePowell2.jpg" id="DescPic">
+    </div>
+    <div class="footer">
+        <center>
+        <ul>
+            <il><a href="HomePage.html" id="footerLink">Home</a></il>
+            <il><a href="CodeSamples.html" id="footerLink">Code Samples</a></il>
+            <il><a href="AboutMe.html" id="footerLink">About Me</a></il>
+        </ul>
+        <p id="footerContact">
+            Contact info:
+            <ul id="footerList">
+                <li>Email: davidw3214@gmail.com</li>
+                <li>Discord: David Westwood#6419</li>
+            </ul>
+        </p>
+        </center>
+    
+    </div>
+</body>
+</html>

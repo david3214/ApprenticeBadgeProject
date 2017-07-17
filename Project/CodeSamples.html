@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Apprentice Project</title>
+    <link href="MainStyle.css" rel="stylesheet" type="text/css"/>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js" ></script>
+    <script src="MainScript.js" ></script>
+</head>
+<body>
+    
+    <div id="navbar">
+        <ul>
+            <il><a href="HomePage.html" id="navbarLink">Home</a></il>
+            <il><a href="CodeSamples.html" id="navbarLink">Code Samples</a></il>
+            <il><a href="AboutMe.html" id="navbarLink">About Me</a></il>
+        </ul>
+    </div>
+    <div id="sidebar">
+        <select name="backgroundSelect" id="backgroundSelect" onchange="changeBackground()">
+            <option value="Mountain">Moutain View</option>
+            <option value="Lake">Lake view</option>
+        </select>
+        <p>This is just a basic layout, if you feel like it needs something or that I could add something just let me know.
+        Right now I am not sure what I want to put on this sidebar, but I like the placement of it and I am going to keep it.
+        </p>
+    </div>
+    <div class="mainbar">
+        <div style="width:50%;display:inline-block;">
+            <h1 id="C-sharp">A simple game I made early in my learning with C#</h1>
+            <img src="Pics/C-SharpGame.PNG">
+            <button style="margin-bottom: 10px;"><a href="C-SharpGame.zip" id="downloadButton" target="_blank" >Download</a></button>
+        </div>
+        <div style="width:50%;float:inherit;">
+            <h1>
+                My first programming project was this horrid website, and an ok game.
+            </h1>
+            <img src="Pics/OldWeb.PNG" style="height: 335px; width: 700px;">
+            <p>The only page with anything on it is the puzzle games page, and my brother in law did most of the coding for the game, and I was piggybacking off of my dads domain.</p>
+            <a href="http://utahcountyweather.com/davids/games/Puzzle%20games.html">Link to my old Website</a>
+        </div>
+    </div>
+    <div class="footer">
+        <center>
+        <ul>
+            <il><a href="HomePage.html" id="footerLink">Home</a></il>
+            <il><a href="CodeSamples.html" id="footerLink">Code Samples</a></il>
+            <il><a href="AboutMe.html" id="footerLink">About Me</a></il>
+        </ul>
+        <p id="footerContact">
+            Contact info:
+            <ul id="footerList">
+                <li>Email: davidw3214@gmail.com</li>
+                <li>Discord: David Westwood#6419</li>
+            </ul>
+        </p>
+        </center>
+    
+    </div>
+</body>
+</html>

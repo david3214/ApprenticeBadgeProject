@@ -1,0 +1,100 @@
+ body{
+    margin: 0%;
+    font-family: 'Times New Roman', Times, serif;
+    background: url('Pics/Mount-timpanogos.jpg') no-repeat;
+    background-size: cover;
+}
+#navbar{
+    width: 100%;
+    height: 75px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+#navbarLink{
+    color: White;
+    padding: 20px;
+    text-decoration: none;
+    line-height: 75px;
+    opacity: .8;
+}
+#navbarLink:hover{
+    background-color: green;
+}
+#sidebar{
+    height: 722px;
+    float: left;
+    background: lightblue;
+    width: 13%;
+    opacity: .8;
+    padding-left: .5%;
+    padding-right: .5%;
+
+}
+div.mainbar{
+    float: right;
+    background-color: rgba(255,254,255, .5);
+    height:fit-content;
+    width: 85%;
+    padding-left: .5%;
+    padding-right: .5%;
+
+}
+p.mainbar-p{
+    padding-right: 10px;
+}
+div.footer{
+    position: absolute;
+    bottom: 0;
+    height: 13%;
+    Width:100%;
+    background-color: grey;
+    opacity: .9;
+}
+#DescriptionHeader{
+    opacity: 1;
+}
+#timp{
+    opacity: 1;
+}
+#DescPic{
+    width:304px;
+    height:228px;
+    margin-bottom:50px;
+}
+#PowellInfo{
+    display: none;
+}
+select{
+    margin-top: 10px;
+}
+#leftDiv{
+    width:50%;
+    float: left;
+}
+#rightDiv{
+    width:50%;
+    float: right;
+}
+#davidPic{
+    width:275px;
+    height:300px;
+    margin-bottom:50px;
+}
+#footerLink{
+    color: White;
+    padding: 20px;
+    text-decoration: none;
+    line-height: 20px;
+    opacity: .8;
+}
+#footerList{
+    list-style-type: none;
+}
+#footerContact{
+    margin-bottom: -15px;
+}
+#downloadButton{
+    text-decoration: none;
+    color: black;
+}
