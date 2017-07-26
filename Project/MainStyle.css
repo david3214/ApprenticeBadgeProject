@@ -19,7 +19,7 @@ body.Powell #PowellInfo{
 body.Timp #timpInfo {
     display: block;
 }
-body.Powell #PowellInfo{
+body.Timp #PowellInfo{
     display: none;
 }
 #navbar{
@@ -84,9 +84,6 @@ div.footer{
     width:304px;
     height:228px;
     margin-bottom:50px;
-}
-#PowellInfo{
-
 }
 select{
     margin-top: 10px;
