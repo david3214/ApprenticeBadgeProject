@@ -1,31 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- The Title to the page and linking my stylesheet and script-->
     <title>Apprentice Project</title>
     <link href="MainStyle.css" rel="stylesheet" type="text/css"/>
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js" ></script>
     <script src="MainScript.js" ></script>
 </head>
-<body>
-    
+<body onload="rememberBackground()" class="Timp">
+    <!-- The banner across the top to navigate to the web pages -->
     <div id="navbar">
         <ul>
-            <il><a href="HomePage.html" id="navbarLink">Home</a></il>
-            <il><a href="CodeSamples.html" id="navbarLink">Code Samples</a></il>
-            <il><a href="AboutMe.html" id="navbarLink">About Me</a></il>
+            <li class="navbarList"><a href="index.html" class="navbarLink">Home</a></li>
+            <li class="navbarList"><a href="CodeSamples.html" class="navbarLink">Code Samples</a></li>
+            <li class="navbarList"><a href="AboutMe.html" class="navbarLink">About Me</a></li>
         </ul>
     </div>
+    <!--A sidebar that has a select to change the background, and looks nice on the page but needs more-->
     <div id="sidebar">
         <select name="backgroundSelect" id="backgroundSelect" onchange="changeBackground()">
-            <option value="Mountain">Moutain View</option>
-            <option value="Lake">Lake view</option>
+            <option value="Mountain" id="mountainOption">Moutain View</option>
+            <option value="Lake" id="lakeOption">Lake view</option>
         </select>
         <p>This is just a basic layout, if you feel like it needs something or that I could add something just let me know.
         Right now I am not sure what I want to put on this sidebar, but I like the placement of it and I am going to keep it.
         </p>
     </div>
+    <!-- The mainbar split into two sections of code samples -->
     <div class="mainbar">
-        <div style="width:50%;display:inline-block;">
+        <!-- Half of the mainbar showing a previous project I did in c# -->
+        <div style="width:50%;display:inline-block;" id="C-SharpSample">
             <h1 id="C-sharp">A simple game I made early in my learning with C#</h1>
             <img src="Pics/C-SharpGame.PNG">
             <button style="margin-bottom: 10px;"><a href="C-SharpGame.zip" id="downloadButton" target="_blank" >Download</a></button>
@@ -39,12 +43,13 @@
             <a href="http://utahcountyweather.com/davids/games/Puzzle%20games.html">Link to my old Website</a>
         </div>
     </div>
+    <!-- The footer of the page, giving the user another option to switch pages and basic contact info -->
     <div class="footer">
         <center>
         <ul>
-            <il><a href="HomePage.html" id="footerLink">Home</a></il>
-            <il><a href="CodeSamples.html" id="footerLink">Code Samples</a></il>
-            <il><a href="AboutMe.html" id="footerLink">About Me</a></il>
+            <il><a href="HomePage.html" class="footerLink">Home</a></il>
+            <il><a href="CodeSamples.html" class="footerLink">Code Samples</a></il>
+            <il><a href="AboutMe.html" class="footerLink">About Me</a></il>
         </ul>
         <p id="footerContact">
             Contact info:

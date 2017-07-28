@@ -1,8 +1,26 @@
  body{
     margin: 0%;
     font-family: 'Times New Roman', Times, serif;
+}
+body.Timp{
     background: url('Pics/Mount-Timpanogos.jpg') no-repeat;
+        background-size: cover;
+}
+body.Powell{
+    background: url('Pics/LakePowell.jpg') no-repeat;
     background-size: cover;
+}
+body.Powell #timpInfo {
+    display: none;
+}
+body.Powell #PowellInfo{
+    display: block; 
+}
+body.Timp #timpInfo {
+    display: block;
+}
+body.Timp #PowellInfo{
+    display: none;
 }
 #navbar{
     width: 100%;
@@ -11,14 +29,19 @@
     color: white;
     font-size: 30px;
 }
-#navbarLink{
+.navbarLink{
     color: White;
-    padding: 20px;
+    padding: .7em;
     text-decoration: none;
-    line-height: 75px;
+
     opacity: .8;
 }
-#navbarLink:hover{
+.navbarList{
+    list-style: none;
+    display: inline-block;
+    margin-top: .7em;
+}
+.navbarLink:hover{
     background-color: green;
 }
 #sidebar{
@@ -51,19 +74,16 @@ div.footer{
     background-color: grey;
     opacity: .9;
 }
-#DescriptionHeader{
+.DescriptionHeader{
     opacity: 1;
 }
 #timp{
     opacity: 1;
 }
-#DescPic{
+.DescPic{
     width:304px;
     height:228px;
     margin-bottom:50px;
-}
-#PowellInfo{
-    display: none;
 }
 select{
     margin-top: 10px;
@@ -81,7 +101,7 @@ select{
     height:300px;
     margin-bottom:50px;
 }
-#footerLink{
+.footerLink{
     color: White;
     padding: 20px;
     text-decoration: none;
